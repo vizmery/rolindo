@@ -12,5 +12,15 @@
     --color3:  #f078ef ;
     --color4:  #f793f7 ;
     --color5:  #ffaeff ;
+    --texto-titulo:"Poetsen One", sans-serif;
+    --texto-corpo:"Poetsen One", sans-serif;
+
+} 
+
+body{
+  background-color:var(--color1);
+  color: var(--color5);
+  font-family: var(--fonte-texto);
+
 
 }
