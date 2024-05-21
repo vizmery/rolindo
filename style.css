@@ -1,26 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Sedan+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 :root{
-    --color1:  #e041df ;
-    --color2:  #e85ce7 ;
-    --color3:  #f078ef ;
-    --color4:  #f793f7 ;
-    --color5:  #ffaeff ;
-    --texto-titulo:"Poetsen One", sans-serif;
-    --texto-corpo:"Poetsen One", sans-serif;
-
-} 
+    --rosinha-barbie: #ef476fff;
+    --amalero: #ffd166ff;
+    --verde-green: #06d6a0ff;
+    --azul-inverno: #118ab2ff;
+    --azul-da-noite: #073b4cff;
+    --font-titulo:"Oswald"
+    --fonte-texto:"Roboto Condensed"
+}
 
 body{
-  background-color:var(--color1);
-  color: var(--color5);
-  font-family: var(--fonte-texto);
+    background-color: var(--azul-inverno);
+    color:var(--azul-da-noite);
+    font-family: var(--font-titulo);
+}
 
+.titulo-principal{
+    font-family: var(--font-titulo);
 
 }
+
+
